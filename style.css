@@ -1,0 +1,25 @@
+/* Color rosa de fondo */
+.background {
+    background-color: #F0A5CD;
+}
+/* Color de los iconos */
+.icono {
+   color: #FFEBD2;
+}
+/* Color de los botones */
+.boton {
+    color: #FFEBD2;
+}
+/* Color de fondo del buscador */
+.buscador {
+    color: #FFEBD2;
+}
+/* Color de fondo de la ventana emergente */
+.ventana_emergente{
+    background-color: #FFC3C3;
+}
+
+
+ 
+
+
