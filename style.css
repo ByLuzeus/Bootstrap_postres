@@ -1,4 +1,7 @@
 /* Color rosa de fondo */
+#logo{
+    width: 50px;
+}
 .background {
     background-color: #F0A5CD;
 }
