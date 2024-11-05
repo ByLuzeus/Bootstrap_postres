@@ -1,34 +1,51 @@
-/* Color rosa de fondo */
-#logo{
-    width: 50px;
-}
-
 .background {
     background-color: #F0A5CD;
 }
+
 /* Color de los iconos */
 .icono {
-   color: #FFEBD2;
+    color: #FFEBD2;
 }
+
 /* Color de los botones */
 .boton {
     color: #FFEBD2;
 }
+
 /* Color de fondo del buscador */
 .buscador {
     color: #FFEBD2;
 }
+
 /* Color de fondo de la ventana emergente */
-.ventana_emergente{
+.ventana_emergente {
     background-color: #FFC3C3;
 }
-h3{
+
+h3 {
     text-align: center;
 }
-.info{
+
+.info {
     text-align: center;
 }
 
+/*Iconos del navegador con tamaños seteados*/
+.icono-nav {
+    height: 32px;
+}
 
+#logo {
+    width: 120px;
+    height: auto;
+}
 
+.profile_img {
+    width: 150px;
+    height: auto;
+}
 
+.recetas-des {
+    width: 300px;
+    height: auto;
+}
