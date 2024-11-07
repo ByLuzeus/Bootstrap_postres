@@ -31,8 +31,11 @@ h3 {
 }
 
 /*Iconos del navegador con tamaños seteados*/
-.bi {
+.nav-bar-icons {
     font-size: 30px;
+}
+.footer-icons{
+    font-size: 30px; 
 }
 
 #logo {
