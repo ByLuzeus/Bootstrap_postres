@@ -53,3 +53,35 @@ h3 {
 .titulo_postre {
     color: #FFEBD2;
 }
+
+/* Envianos una receta */
+.contact-form {
+    background: #ffc9c9;
+    border: solid black 1px;
+    border-radius: 5px;
+  }
+  
+  .contact-image img {
+    width: 80px;
+    margin-top: -20px;
+  }
+  
+  .contact-form h3 {
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .contact-form .form-control {
+    border-radius: 0.5rem;
+  }
+  
+  .contact-form .btnContact {
+    width: 100%;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 10px;
+    background: #000000;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+  }
