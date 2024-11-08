@@ -4,9 +4,8 @@
 .modal-backgroud{
     background-color: #F0A5CD;
 }
-
 .modal-dialog {
-    margin: 30px; 
+    margin: auto; 
   }
   
   .modal-content {
@@ -21,8 +20,10 @@
     padding: 0;
     margin: 0; 
   }
-  
-  
+
+.modal-header {
+    border-bottom: none;
+}
 /* Color de los iconos */
 .icono {
     color: #FFEBD2;
