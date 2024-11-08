@@ -6,33 +6,23 @@
 }
 
 .modal-dialog {
-    padding: 0; 
+    margin: 30px; 
   }
   
   .modal-content {
-    padding: 20px;
-  }
-  
-  .modal-header,
-  .modal-body {
-    margin: 0;
-  }
- 
-  .modal-header {
-    padding-bottom: 15px;
+    padding: 40px;
   }
   
   .modal-body {
-    padding-top: 15px;
-  }
-  .modal-footer {
-    padding-top: 15px; 
-    padding-bottom: 15px; 
+    padding: 0; 
   }
   
-.modal-header {
-    border-bottom: none;
-}
+  .container {
+    padding: 0;
+    margin: 0; 
+  }
+  
+  
 /* Color de los iconos */
 .icono {
     color: #FFEBD2;
