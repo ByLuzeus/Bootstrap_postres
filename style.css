@@ -5,6 +5,31 @@
     background-color: #F0A5CD;
 }
 
+.modal-dialog {
+    padding: 0; 
+  }
+  
+  .modal-content {
+    padding: 20px;
+  }
+  
+  .modal-header,
+  .modal-body {
+    margin: 0;
+  }
+ 
+  .modal-header {
+    padding-bottom: 15px;
+  }
+  
+  .modal-body {
+    padding-top: 15px;
+  }
+  .modal-footer {
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+  }
+  
 .modal-header {
     border-bottom: none;
 }
