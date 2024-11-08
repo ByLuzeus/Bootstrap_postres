@@ -136,22 +136,5 @@ h3 {
 }
 
   
-  @media (max-width: 768px) {
-    .form-row {
-      flex-direction: column;  
-    }
-  
-    .col-md-6 {
-      flex: 1 1 100%; 
-    }
-  
-    .contact-form .form-control {
-      font-size: 1rem; 
-      padding: 10px; 
-    }
-  
-    .contact-form .btnContact {
-      padding: 10px; 
-    }
-  }
+
 
