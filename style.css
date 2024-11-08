@@ -1,7 +1,13 @@
 .background {
     background-color: #F0A5CD;
 }
+.modal-backgroud{
+    background-color: #F0A5CD;
+}
 
+.modal-header {
+    border-bottom: none;
+}
 /* Color de los iconos */
 .icono {
     color: #FFEBD2;
@@ -52,6 +58,11 @@ h3 {
 
 .recetas-des {
     width: 300px;
+    height: auto;
+}
+
+.recetas-modal{
+    width: 500px;
     height: auto;
 }
 
