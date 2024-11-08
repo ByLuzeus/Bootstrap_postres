@@ -53,9 +53,6 @@ h3 {
 .nav-link:hover {
     transform: scale(1.2);
 }
-
-
-
 /*- ------------------------------------------------------------------------*/
 
 .footer-icons{
@@ -95,7 +92,6 @@ h3 {
     margin-top: 20px;
     
 }
-
 
 /* Estilos para el formulario */
 .contact-form {
