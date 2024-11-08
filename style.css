@@ -26,10 +26,6 @@ h3 {
     text-align: center;
 }
 
-.recetash3{
-    text-align: center;
-    margin-top: 20px;
-}
 
 .info {
     text-align: center;
@@ -61,6 +57,9 @@ h3 {
 
 .titulo_postre {
     color: #FFEBD2;
+    text-align: center;
+    margin-top: 20px;
+    
 }
 
 /* Envianos una receta */
