@@ -16,7 +16,7 @@
 
 <body class="background">
   <!-- Nav bar  -->
-  <nav class="navbar navbar-expand-lg navbar-light py-1 mb-5 sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-light py-1 sticky-top">
     <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +41,7 @@
             <i class="bi bi-journal nav-bar-icons"></i>
             Recetas
           </a>
-          
+
           <a class="nav-link d-flex flex-column align-items-center" href="#contact-form-link">
             <i class="bi bi-share nav-bar-icons"></i>
             Compartir
@@ -54,7 +54,7 @@
 
   <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
 
-    <div id="carouselExampleIndicators" class="carousel slide col-12 col-md-8 col-lg-6 mx-auto">
+    <div id="carouselExampleIndicators" class="carousel slide  mx-auto">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
           aria-current="true" aria-label="Slide 1"></button>
@@ -160,10 +160,12 @@
                       <div>
                         <h3 class="mt-4 mb-2 text-start">Elaboracion</h3>
                         <ul>
-                          <li>Machacamos los amaretti en un mortero hasta obtener una harina fina. No pasa nada si nos queda algún pedacillo más grande. Reservamos en un cuenco.</li>
+                          <li>Machacamos los amaretti en un mortero hasta obtener una harina fina. No pasa nada si nos
+                            queda algún pedacillo más grande. Reservamos en un cuenco.</li>
                         </ul>
                       </div>
-                      <img class="recetas-des img-fluid recetas-modal" src="imagenes/modal/preparacion_bonet.png" alt="">
+                      <img class="recetas-des img-fluid recetas-modal" src="imagenes/modal/preparacion_bonet.png"
+                        alt="">
                     </div>
                   </div>
                 </div>
@@ -194,41 +196,41 @@
     </div>
 
     <!-- Formulario de contacto -->
-  <div class="container contact-form mt-5 mb-3" id="contact-form-link">
-    <form method="post" class="p-4">
-      <h3 class="text-center">Mándanos tu receta favorita</h3>
-      <!-- Nombre y Apellido -->
-      <div class="row">
-        <div class="col-md-6 mb-3">
-          <input type="text" name="txtName" class="form-control" placeholder="Nombre" />
+    <div class="container contact-form mt-5 mb-3" id="contact-form-link">
+      <form method="post" class="p-4">
+        <h3 class="text-center">Mándanos tu receta favorita</h3>
+        <!-- Nombre y Apellido -->
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <input type="text" name="txtName" class="form-control" placeholder="Nombre" />
+          </div>
+          <div class="col-md-6 mb-3">
+            <input type="text" name="txtLastName" class="form-control" placeholder="Apellido" />
+          </div>
         </div>
-        <div class="col-md-6 mb-3">
-          <input type="text" name="txtLastName" class="form-control" placeholder="Apellido" />
+
+        <!-- Email y Teléfono -->
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <input type="email" name="txtEmail" class="form-control" placeholder="Email" />
+          </div>
+          <div class="col-md-6 mb-3">
+            <input type="tel" name="txtPhone" class="form-control" placeholder="Teléfono" />
+          </div>
         </div>
-      </div>
-      
-      <!-- Email y Teléfono -->
-      <div class="row">
-        <div class="col-md-6 mb-3">
-          <input type="email" name="txtEmail" class="form-control" placeholder="Email" />
+
+        <!-- Receta -->
+        <div class="row">
+          <div class="col-md-12 mb-3">
+            <textarea name="txtMsg" class="form-control" placeholder="Escríbenos tu receta" rows="5"></textarea>
+          </div>
         </div>
-        <div class="col-md-6 mb-3">
-          <input type="tel" name="txtPhone" class="form-control" placeholder="Teléfono" />
+
+        <div class="text-center">
+          <button type="submit" class="btn btnContact">Enviar Receta</button>
         </div>
-      </div>
-      
-      <!-- Receta -->
-      <div class="row">
-        <div class="col-md-12 mb-3">
-          <textarea name="txtMsg" class="form-control" placeholder="Escríbenos tu receta" rows="5"></textarea>
-        </div>
-      </div>
-      
-      <div class="text-center">
-        <button type="submit" class="btn btnContact">Enviar Receta</button>
-      </div>
-    </form>
-  </div>
+      </form>
+    </div>
 
     <div class="container">
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top border-dark">
