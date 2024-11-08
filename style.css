@@ -131,6 +131,11 @@ h3 {
     object-fit: cover;
   }
   
+  .img-thumbnail {
+    background-color: black !important;
+}
+
+  
   @media (max-width: 768px) {
     .form-row {
       flex-direction: column;  
