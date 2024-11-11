@@ -12,20 +12,21 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/x-icon" href="/imagenes/logo.png">
+  <link rel="icon" type="image/x-icon" href="/imagenes/logo_circular.png">
 </head>
 
 <body class="background">
-  <!-- Nav bar  -->
+  <!------------------------- Nav bar  ------------------------------------>
   <nav class="navbar navbar-expand-lg navbar-light py-1 sticky-top">
     <div class="container">
+      <img id="logo" class="img-fluid mt-2" src="imagenes/logo.png">
+
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
-      <img id="logo" class="img-fluid mt-2" src="imagenes/logo.png">
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      
+      <div class="collapse navbar-collapse" id="navbarNavAltMa  rkup">
         <div class="navbar-nav ms-auto">
           <a class="nav-link active d-flex flex-column align-items-center" href="#">
             <i class="bi bi-house nav-bar-icons"></i>
@@ -96,6 +97,7 @@
       <hr class="border-dark my-5 border-2">
     </div>
 
+    <!------------------------------------ Nosotros ----------------------------------->
     <div class="container" id="nosotros">
       <div class="row">
         <div class="col-12 col-md-4 d-flex flex-column align-items-center">
@@ -126,27 +128,29 @@
       <hr class="border-dark my-5 border-2">
     </div>
 
+    <!---------------------------- Recetas destacadas --------------------------------->
     <div class="container">
       <h2 class="text-center mb-5 titulo">Recetas Destacadas</h2>
       <div class="row">
+        <!------------------- Postre 1 ------------------->
         <div class="col-12 col-md-4 d-flex flex-column align-items-center">
           <img class="recetas-des img-fluid img-thumbnail"  data-bs-toggle="modal" data-bs-target="#bonet"
             src="imagenes/BONÈT.png" alt="">
 
-          <!-- Modal -->
+          <!------------------- Modal 1 ------------------->
           <div class="modal fade" id="bonet" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
             aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content modal-backgroud">
                 <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Preparacion Bonet</h1>
+                  <h1 class="modal-title fs-2" id="staticBackdropLabel">Preparación Bonet</h1>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                   <div class="container">
                     <div class="row">
                       <div class="col-12 text-center">
-                        <img class="recetas-des img-fluid recetas-modal" src="imagenes/BONÈT.png" alt="">
+                        <img class="recetas-des img-fluid recetas-modal mb-4" src="imagenes/BONÈT.png" alt="">
                         <h3>BONET</h3>
                       </div>
                       <div>
@@ -180,30 +184,39 @@
               </div>
             </div>
           </div>
-
+          <!----------------- Descripción 1 -------------------->
           <h3 class="titulo_postre">BONÈT</h3>
-          <p class="info">CREADOR DE ESTE BLOG DE POSTRES DONDE COMPARTO MI AMOR POR LA REPOSTERÍA CON EL MUNDO. AQUÍ
-            ENCONTRARÁS RECETAS LLENAS DE CREATIVIDAD. DESDE LOS CLÁSICOS QUE TODOS AMAMOS HASTA LA ÚLTIMA TENDENCIA EN
-            DULCES. .</p>
+
+          <div class="info px-4">
+            <p>BONET O BUNET ES UN POSTRE DE NATILLA PIAMONTESA. SE PREPARA DE MANERA MUY SIMILAR 
+                AL FLAN, EXCEPTO POR LA ADICIÓN DE AMARETTO Y CACAO EN POLVO. </p>
+            <p>
+                LA NATILLA SE ELABORA COMBINANDO HUEVOS,
+                LECHE, CACAO EN POLVO Y AZÚCAR. LUEGO SE VIERTE LA MEZCLA SOBRE UNA SALSA DE CARAMELO Y SE CUECE AL 
+                BAÑO MARÍA.
+            </p>
+          </div>   
         </div>
+
+        <!----------------- Postre 2 -------------------->
         <div class="col-12 col-md-4 d-flex flex-column align-items-center">
           <img class="recetas-des img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#cannoli"
             src="imagenes/CANNOLI.png" alt="">
 
-          <!-- Modal2 -->
+          <!------------------- Modal 2 ---------------------->
           <div class="modal fade" id="cannoli" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
             aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content modal-backgroud">
                 <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Preparacion cannoli</h1>
+                  <h1 class="modal-title fs-2" id="staticBackdropLabel">Preparación cannoli</h1>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                   <div class="container">
                     <div class="row">
                       <div class="col-12 text-center">
-                        <img class="recetas-des img-fluid recetas-modal" src="imagenes/CANNOLI.png" alt="">
+                        <img class="recetas-des img-fluid recetas-modal mb-4" src="imagenes/CANNOLI.png" alt="">
                         <h3>CANNOLI</h3>
                       </div>
                       <div>
@@ -245,30 +258,44 @@
               </div>
             </div>
           </div>
+
+          <!----------------- Descripción 2 -------------------->
           <h3 class="titulo_postre">CANNOLI</h3>
-          <p class="info">CREADOR DE ESTE BLOG DE POSTRES DONDE COMPARTO MI AMOR POR LA REPOSTERÍA CON EL MUNDO. AQUÍ
-            ENCONTRARÁS RECETAS LLENAS DE CREATIVIDAD. DESDE LOS CLÁSICOS QUE TODOS AMAMOS HASTA LA ÚLTIMA TENDENCIA EN
-            DULCES. .</p>
+
+          <div class="info px-4">
+            <p>EL CANNOLO ES UN DULCE TÍPICO DE LA REGIÓN ITALIANA DE SICILIA, DE DONDE ES ORIGINARIO.</p>
+
+            <p>
+                CONSISTE EN UNA MASA ENROLLADA EN FORMA DE TUBO QUE DENTRO LLEVA INGREDIENTES MEZCLADOS CON 
+                QUESO RICOTA
+            </p>    
+
+            <p>
+                ES TAN POPULAR EN SICILIA QUE ES MUY RARA LA PASTELERÍA DONDE NO SE EXPONE UNA BANDEJA
+                 DE CANNOLI.
+            </p>
+          </div> 
         </div>
-        
+
+        <!----------------- Postre 3 -------------------->
         <div class="col-12 col-md-4 d-flex flex-column align-items-center">
           <img class="recetas-des img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#cartocci"
             src="imagenes/CARTOCCI.png" alt="">
 
-          <!-- Modal3 -->
+          <!--------------- Modal 3 ----------------->
           <div class="modal fade" id="cartocci" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
             aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content modal-backgroud">
                 <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Preparacion Cartocci</h1>
+                  <h1 class="modal-title fs-2" id="staticBackdropLabel">Preparación Cartocci</h1>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                   <div class="container">
                     <div class="row">
                       <div class="col-12 text-center">
-                        <img class="recetas-des img-fluid recetas-modal" src="imagenes/CARTOCCI.png" alt="">
+                        <img class="recetas-des img-fluid recetas-modal mb-4" src="imagenes/CARTOCCI.png" alt="">
                         <h3>CARTOCCI</h3>
                       </div>
                       <div>
@@ -285,7 +312,7 @@
                         </ul>
                       </div>
                       <div>
-                        <h3 class="mt-4 mb-2 text-start">Elaboracion</h3>x
+                        <h3 class="mt-4 mb-2 text-start">Elaboracion</h3>
                         <ul>
                           <li>1. En un bol grande, disuelve la levadura en el agua tibia. Deja reposar durante unos minutos hasta que se active. </li>
                           <li>2. Añade la harina y la sal al bol con la levadura activada. Mezcla bien hasta obtener una masa homogénea.  </li>
@@ -306,15 +333,23 @@
               </div>
             </div>
           </div>
+          <!----------------- Descripción 3 -------------------->
           <h3 class="titulo_postre">CARTOCCI</h3>
-          <p class="info">CREADOR DE ESTE BLOG DE POSTRES DONDE COMPARTO MI AMOR POR LA REPOSTERÍA CON EL MUNDO. AQUÍ
-            ENCONTRARÁS RECETAS LLENAS DE CREATIVIDAD. DESDE LOS CLÁSICOS QUE TODOS AMAMOS HASTA LA ÚLTIMA TENDENCIA EN
-            DULCES. .</p>
+
+          <div class="info px-4">
+            <p>LOS CARTOCCI SON UN BOCADILLO ITALIANO TRADICIONAL QUE COMBINA LO MEJOR DE LOS ROLLOS DE MASA FRITOS: 
+                UNA CAPA CRUJIENTE POR FUERA Y UN INTERIOR SUAVE Y DELICIOSO.</p>
+
+            <p>
+                ESTA RECETA ES MUY VERSÁTIL, YA QUE PUEDES RELLENARLOS CON UNA VARIEDAD DE INGREDIENTES, DESDE
+                 RELLENOS DULCES COMO CREMA PASTELERA O NUTELLA HASTA OPCIONES SALADAS COMO JAMÓN Y QUESO O ESPINACAS Y RICOTA. 
+            </p>    
+          </div>  
         </div>
       </div>
     </div>
 
-    <!-- Formulario de contacto -->
+    <!----------------------------- Formulario de contacto ----------------------------->
     <div class="container contact-form mt-5 mb-3" id="contact-form-link">
       <form method="post" class="p-4">
         <h3 class="text-center">Mándanos tu receta favorita</h3>
@@ -351,6 +386,7 @@
       </form>
     </div>
 
+    <!-------------------------------- Footer  ---------------------------------->
     <div class="container">
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top border-dark">
         <div class="col-md-4 d-flex align-items-center">
@@ -375,6 +411,8 @@
         </ul>
       </footer>
     </div>
+  
+    <audio autoplay loop src="/imagenes/sonido.mp3"></audio>
 </body>
 
 </html>
