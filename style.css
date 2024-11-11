@@ -133,6 +133,19 @@ h3 {
     background-color: #FFEBD2 !important;
 }
 
-  
+.pagination > li > a
+{
+    background-color: white;
+    color: black;
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: black !Important;
+
+}
+
+
 
 
