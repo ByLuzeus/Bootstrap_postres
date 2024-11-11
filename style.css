@@ -37,11 +37,12 @@ padding: 0;
     width: 300px;
     height: auto;
 }
-.recetas-des:hover {
+#hover:hover {
     cursor: url('imagenes/click.png'), auto;
 }
-
-
+.hover:hover {
+    cursor: url('imagenes/click.png'), auto;
+}
 .recetas-modal{
     width: 500px;
     height: auto;
