@@ -13,7 +13,10 @@ body {
     margin: auto; 
 }
 .modal-content {
-    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 20px;
 }
 .modal-body {
 padding: 0; 
@@ -24,6 +27,10 @@ padding: 0;
 }
 .modal-header {
     border-bottom: none;
+    padding-top: 0;
+}
+.modal-header h1{
+    margin: 0 auto;
 }
 .recetas-des {
     width: 300px;
