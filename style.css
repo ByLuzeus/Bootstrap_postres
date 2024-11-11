@@ -16,8 +16,8 @@ body {
 .modal-content {
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 40px;
-    padding-top: 20px;
+    padding-bottom: 30px; /* Para que el boton se vea bien*/
+    padding-top: 20px; /* Para que el titulo del modal se vea bien*/
 }
 .modal-body {
 padding: 0; 
@@ -138,6 +138,7 @@ h3 {
     background-color: #FFEBD2 !important;
 }
 
+/*GEstion del paginado*/
 .pagination > li > a
 {
     background-color: white;
